@@ -1,0 +1,11 @@
+[package]
+name = "clipboard_software"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk = "0.18.1"
+gdk-pixbuf = "0.16"  # Replace with the latest compatible version
+clipboard = "0.5.0"
+image = "0.25.1"      # For screenshot handling
+notify = "6.1.1"      # For file monitoring
